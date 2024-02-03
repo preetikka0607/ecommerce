@@ -1,0 +1,48 @@
+body{
+    color: white;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-box {
+    width: 70vw;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    background-color: rgba(50, 49, 49, 0.997);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap:wrap;
+}
+.outer-box img{
+    width: 6vw;
+    height: 2vw;
+}
+
+.inner-box {
+    /* width: 15vw; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+
+
+.inner-box a{
+    display: flex;
+    width: 4.5vw;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.inner-box a:hover{
+    cursor: pointer;
+    color:  rgb(255, 174, 0);
+}

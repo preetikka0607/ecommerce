@@ -1,0 +1,148 @@
+.cartproduct-widget{
+    display: flex;
+    flex-direction: row;
+    
+    /* width: 15vw;
+    height: 26vw; */
+    width:830px;
+    height:260px;
+    background-color: rgba(50, 49, 49, 0.997);
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.cartimgcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartprodImage-container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(106, 102, 102, 0.889);
+    /* width: 12vw;
+    height: 15vw; */
+    width: 200px;
+    height: 230px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.cartprodImage-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.cartprod-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   color: rgb(175, 172, 172)
+}
+.cartprod-details p{
+    margin: 5px 5px;
+    
+}
+.cartprod-add{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.cartprod-add p{
+    margin: 5px 5px;
+}
+
+/* .cartprod-add button{
+    background-color: transparent;
+
+    border-style:double;
+    padding: 0.7vw;
+    border-radius: 5px;
+    border-color: rgb(255, 174, 0);
+    color:  rgb(255, 174, 0);
+    transition: 0.5s;
+    
+}
+.cartprod-add button:hover{
+    cursor: pointer;
+    background-color:  rgb(255, 174, 0);
+    color: black;
+    transform: scale(1.1)
+    
+} */
+.plusbutton {
+    background-color: transparent;
+    border-style: double;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgb(1, 151, 1);
+    color: rgb(1, 151, 1);
+
+}
+.minusbutton {
+    background-color: transparent;
+    border-style: double;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: red;
+    color: red;
+
+}
+.wrapper-details{
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.PriceContainer{
+    display: flex;
+    width: 342px;
+    flex-direction: row-reverse
+}
+.remove-button{
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: transparent;
+
+    border-style:double;
+    padding: 0.7vw;
+    border-radius: 5px;
+    border-color: rgb(255, 174, 0);
+    color:  rgb(255, 174, 0);
+    transition: 0.5s;
+    
+}
+.remove-button:hover{
+    cursor: pointer;
+    background-color:  rgb(255, 174, 0);
+    color: black;
+    transform: scale(1.1)
+    
+}
+.counterHandler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputcounter{
+    text-align: center;
+ 
+    background-color: transparent;
+    color: white;
+    border-color: grey;
+    border-style: solid;
+    width: 44px;
+    height: 25px;
+}
