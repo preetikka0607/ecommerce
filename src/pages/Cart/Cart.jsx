@@ -5,6 +5,7 @@ import { CartContext } from "../../Contexts/cartContext";
 import { CartProduct } from "./CartProduct";
 import cartoonwoman from "../../assets/cartoon-woman.png";
 import { useNavigate } from "react-router-dom";
+import emptyCart from "../../assets/emptyCart.png";
 
 export const Cart = () => {
   const {cartItems} = useContext(CartContext);
@@ -37,9 +38,12 @@ export const Cart = () => {
   </>
  const emptyCartContent = 
  <>
-  <div className="priceCartContainer">
+  <div className="EmptyCartContainer">
+        <img src={emptyCart} alt="emptyCart"/>
         <h1>Your Cart is Empty!!!</h1>
-        <button>Add items...</button>
+        <p>Looks like you have nothing added to your cart. Go</p>
+        <p>ahead and explore new items.</p>
+        <button onClick={()=>{navigate('/')}}>Add items...</button>
     </div>
  </>
   return (
