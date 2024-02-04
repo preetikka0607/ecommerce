@@ -46,7 +46,7 @@ const getInitialCart = () => {
 };
 
 export const CartContextProvider = (props) => {
-  const [cartItems, setCartItems] = useState(getInitialCart());
+  const [cartItems, setCartItems] = useState(getInitialCart());  
   
   const getSubtotal = () => {
     let totalAmt = 0;

@@ -30,12 +30,12 @@ body{
     align-items: center;
     /* justify-content: space-evenly; */
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 
 .inner-box a{
     display: flex;
-    width: 4.5vw;
     align-items: center;
     justify-content: space-between;
     color: white;
@@ -45,4 +45,22 @@ body{
 .inner-box a:hover{
     cursor: pointer;
     color:  rgb(255, 174, 0);
+}
+.countofcart{
+    width: 10px;
+    height: 10px;
+    background-color:  rgb(255, 174, 0);
+    font-size: 10px;
+    font-weight: bolder;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+    
+}
+
+.cart-wrapper{
+    display: flex;
+    flex-direction: row;
 }
