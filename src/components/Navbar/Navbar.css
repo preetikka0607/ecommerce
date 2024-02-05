@@ -20,8 +20,8 @@ body{
     flex-wrap:wrap;
 }
 .outer-box img{
-    width: 6vw;
-    height: 2vw;
+    width: 100px;
+    height: 30px;
 }
 
 .inner-box {
@@ -47,8 +47,8 @@ body{
     color:  rgb(255, 174, 0);
 }
 .countofcart{
-    width: 10px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
     background-color:  rgb(255, 174, 0);
     font-size: 10px;
     font-weight: bolder;

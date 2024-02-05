@@ -21,6 +21,7 @@ export const CartProduct = ({prodid, prodname, prodprice, prodimg, proddesc}) =>
         <img src={prodimg} alt="img"/>
     </div>
     </div>
+    <div className="rev-wrap">
     <div className="wrapper-details">
     <div className="cartprod-details">
         <p>{prodname}</p>
@@ -42,6 +43,7 @@ export const CartProduct = ({prodid, prodname, prodprice, prodimg, proddesc}) =>
 
     <div className="PriceContainer">
         <p>Rs.{prodprice*cartItemAmt}</p>
+    </div>
     </div>
 </div>
   )
